@@ -1,0 +1,41 @@
+#nutri-btn{
+    height:2rem;
+    border: .2rem solid grey;
+    border-radius: 0rem 1rem 1rem 0rem;
+    color: orange;
+    cursor: pointer;
+}
+
+#rcp-btn{
+    height:2rem;
+    cursor: pointer;
+
+}
+#add{
+    width:6rem;
+    
+    height:1.3rem;
+
+}
+
+@media(min-width:768px){
+
+    #nutri-btn{
+        height:2.3rem;
+        width:3rem;
+    }
+
+    #add{
+        width:20%;
+        height:25%;
+    }
+}
+
+@media(min-width:1024px){
+
+    #nutri-btn{
+        height:3rem;
+        width:4rem;
+    }
+
+}
