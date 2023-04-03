@@ -1,25 +1,37 @@
 #nutri-srch{
-    height:2rem;
+    height:30%;
     border-radius: 1rem 0rem 0rem 1rem;
     padding-left: 1rem;
-    border: .2rem solid grey;
+    border: .1rem solid #666;
+    width:60%;
+    
+    
 }
 
+
+
 #rcp-srch{
-    height:2rem;
+    height:40%;
     width:60%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    padding-left: 1rem;
+    border: .1rem solid #666;
 
 }
 
 #food{
-    height:1.3rem;
+    height:20%;
+    width:50%;
     padding:.2rem;
+    border: .1rem solid #666;
    
 }
 
 #calories{
-    height:1.3rem;
+    height:20%;
+    width:50%;
     padding:.2rem;
+    border: .1rem solid #666;
 }
 
 
@@ -27,18 +39,18 @@
 
 @media(min-width:768px){
     #nutri-srch{
-        width:40%;;
-        height:2.3rem;
+        width:50%;
+        height:30%;
     }
 
     #food{
         width:60%;
-        height:25%;
+        height:20%;
     }
 
     #calories{
         width:60%;
-        height: 25%;
+        height: 20%;
     }
 }
 
